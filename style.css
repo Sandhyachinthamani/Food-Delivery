@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ruda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    padding-left: 145px;
+    background-image: url(./assets/Group\ 1000002774.svg);
+    background-size: cover;
+    margin-left: 12px;
+    justify-content: space-between;
+}
+.logo,.contact{
+    margin-right:100px;
+}
+.nav-item{
+    color: var(--Food-Delivery-PG, #212244);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.notification{
+    position:relative;
+}
+.number{
+    background-color: #F94A3D;
+    font-size: 8px;
+    position: absolute;
+    top:10px;
+    left:25px;
+}
+.explore{
+    background-color: rgba(228, 62, 2, 0.842);
+    color: white;
+    border-radius: 14px;
+    font-size: small;
+    padding: 12px 18px;
+    margin-bottom: 113px;
+}
+.sign{
+    background-color: rgba(228, 62, 2, 0.842);
+    color: white;
+    border-radius: 10px;
+    font-size: small;
+    padding: 5px 20px;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    width: 150px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    background: #FDECEC;   
+}
+.p1{
+    padding:8px 10px;
+    color: var(--Food-Delivery-Orange-Color, #F94A3D);
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px; /* 88.889% */
+}
+.get{
+    width: 400px;
+    color: #212244;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 53px;
+}
+.your{
+    color: var(--Food-Delivery-Orange-Color, #F94A3D);
+}
+.p2{
+    width: 370px;
+    color: var(--Food-Delivery-P, #69697B);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.intro{
+    padding-left: 35px;
+}
+.search{
+    border-radius: 12px;
+    height:fit-content;
+}
+.notification{
+    margin:0px 20px;
+    padding: 7px;
+}
+.hero h1{
+    color: var(--Food-Delivery-PG, #212244);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+    width:247px;
+}
+.hero p{
+    width:230px;
+}
+.hero{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:12px;
+    margin-top: 80px;
+}
+.chicken img{
+   width:130px;
+}
+.chicken p{
+    width:126px;
+    color: #212244;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+.callus p{
+    font-size: 19px;
+}
+.heading{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+.recipes-nav ul{
+    list-style-type: none;
+    margin:40px 380px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+.stars{
+    width:90px;
+    margin-bottom: 15px;
+}
+.fastfoods{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+    line-height: 13px;
+}
+.fastfoods button{
+    font-size: 10px;
+}
+.fastfood{
+    width: 140px;
+    height:200px;
+}
+.cards{
+    margin:10px 150px;
+}
+.title,.price{
+    font-weight: bold;
+}
+.line{
+    width: 20px;
+    height:4px;
+    margin-inline-end: 3px;
+    justify-content: center;
+}
+.line-2{
+    width:5px;
+    height:4px;
+    margin-inline-end: 3px;
+}
+.scroll{
+    margin: 80px 0px 80px 0px;
+}
+
+.fastfoods{
+    background-image: url(./assets/Base.svg);
+    background-size:cover;
+}
+.noodles{
+    background-image: url(./assets/noodles-base.svg);
+    background-size:cover;
+}
+.mentors{
+    background-color: #F8F8F8;
+    padding: 130px 0px;
+}
+.person img{
+    width:50px;
+    margin-left:10px;
+}
+.person{
+    font-size: 12px;
+    width:319px;
+    height:66px;
+    margin-left:157px;
+    margin-top:20px;
+}
+.person h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.name{
+    margin:10px 20px;
+}
+.line img{
+    margin-top:350px;
+    margin-left: 100px;
+    height:330px;
+    width:5px;
+    background-color: #d2d2d3;
+    border-radius: 20px;
+}
+.line2 img{
+    margin-left: 78px;
+    margin-top: 20px;
+    height:80px;
+    width:2px;
+    background-color: #e21e04;
+    border-radius: 20px;
+}
+.what{
+    width:400px;
+    font-size: 35px;
+    margin-left: 130px;
+}
+.commenter, .desc{
+    margin-left: 130px;
+    width:508px;
+}
+.line3{
+    margin-top:10px;
+    margin-left: 10px;
+    height:50px;
+    width:2px;
+    background-color: #e21e04;
+    border-radius: 20px;
+}
+.stars1{
+    margin-left:160px;
+}
+.call{
+    margin:0px 100px;
+    background-image: url(./assets/Call.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mobile{
+    height:600px;
+    margin-left:140px;
+    margin-top:210px;
+}
+.drumstick h1{
+    padding-top: 90px;
+    margin-left: 70px;
+    margin-top: 180px;
+    color: white;
+    font-size: 26px;
+    width: 350px;
+}
+.drumstick p{
+    margin-left:70px;
+    color:white;
+    font-size: 12px;
+    width:350px;
+}
+.app{
+    margin-left:70px;
+    gap:10px;
+}
+.logo1{
+    padding-top:50px;
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+footer{
+    background-image: url(./assets/footerbase.svg);
+    padding-bottom:100px;
+}
+.info p{
+    width:220px;
+    font-size: 12px;
+    margin-left:20px;
+}
+.apps img{
+    padding:10px;
+    margin-left: 12px;
+}
+table{
+    width:50%;
+    margin-top:35px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+th{
+    padding:15px;
+}
+td{
+    padding:10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icon.jpg">
+    <title>Food Delivery</title>
+</head>
+<body>
+   <header >
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="logo" href="#"><svg width="160" height="30" viewBox="0 0 180 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="31" height="30" rx="7" fill="#F94A3D"/>
+              <path d="M15.1 5.344H7.736V25H15.1C21.372 25 25.404 20.996 25.404 15.172C25.404 9.32 21.372 5.344 15.1 5.344ZM12.524 20.856V9.432H14.792C18.404 9.432 20.532 11.56 20.532 15.172C20.532 18.784 18.404 20.856 14.792 20.856H12.524Z" fill="white"/>
+              <path d="M41.86 26H46.99V17.48H53.41V13.49H46.99V9.05H55.57V4.94H41.86V26ZM56.9463 17.6C56.9463 22.88 60.2163 26.24 64.3263 26.24C66.7863 26.24 68.5563 25.13 69.4863 23.6V26H74.6163V3.8H69.4863V11.57C68.4663 10.04 66.5463 9.02 64.3263 9.02C60.2163 9.02 56.9463 12.32 56.9463 17.6ZM69.4863 17.63C69.4863 20.3 67.7763 21.77 65.8263 21.77C63.9063 21.77 62.1663 20.27 62.1663 17.6C62.1663 14.93 63.9063 13.49 65.8263 13.49C67.7763 13.49 69.4863 14.96 69.4863 17.63ZM85.4076 13.13C87.1176 13.13 88.5576 14.18 88.5576 16.01H82.1376C82.4376 14.15 83.7276 13.13 85.4076 13.13ZM93.4176 20.45H87.9576C87.5376 21.35 86.7276 22.07 85.2876 22.07C83.6376 22.07 82.2876 21.05 82.1076 18.86H93.7176C93.7776 18.35 93.8076 17.84 93.8076 17.36C93.8076 12.26 90.3576 9.02 85.4676 9.02C80.4876 9.02 77.0076 12.32 77.0076 17.63C77.0076 22.94 80.5476 26.24 85.4676 26.24C89.6376 26.24 92.6076 23.72 93.4176 20.45ZM96.2139 26H101.344V3.8H96.2139V26ZM104.762 26H109.892V9.26H104.762V26ZM107.342 7.52C109.142 7.52 110.372 6.29 110.372 4.76C110.372 3.2 109.142 1.97 107.342 1.97C105.512 1.97 104.282 3.2 104.282 4.76C104.282 6.29 105.512 7.52 107.342 7.52ZM111.719 9.26L117.659 26H123.989L129.929 9.26H124.469L120.839 21.2L117.209 9.26H111.719ZM139.169 13.13C140.879 13.13 142.319 14.18 142.319 16.01H135.899C136.199 14.15 137.489 13.13 139.169 13.13ZM147.179 20.45H141.719C141.299 21.35 140.489 22.07 139.049 22.07C137.399 22.07 136.049 21.05 135.869 18.86H147.479C147.539 18.35 147.569 17.84 147.569 17.36C147.569 12.26 144.119 9.02 139.229 9.02C134.249 9.02 130.769 12.32 130.769 17.63C130.769 22.94 134.309 26.24 139.229 26.24C143.399 26.24 146.369 23.72 147.179 20.45ZM155.105 18.23C155.105 15.35 156.515 14.51 158.945 14.51H160.355V9.08C158.105 9.08 156.275 10.28 155.105 12.05V9.26H149.975V26H155.105V18.23ZM170.217 19.73L166.347 9.26H160.617L167.427 25.43L163.587 33.95H169.107L179.607 9.26H174.057L170.217 19.73Z" fill="#F94A3D"/>
+              </svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Food</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Recipes</a>
+                </li>
+                <li class="contact nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li> 
+                <li class="search border border-light bg-white nav-item">
+                  <input class="border-0 p-2" type="text" placeholder="Search your item">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li class="notification nav-item">
+                  <a class="nav-link" href="#"><img src="./assets/icon.svg"><span class=" number p-1 rounded-circle text-white">4</span></a>
+                </li>
+                <li class="nav-item">
+                  <button class="sign border-0">Sign in</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    <div class="intro">
+      <div class="more">
+        <p class="p1">More than Faster</p>
+        <img class="bg-white rounded-circle" src="./assets/Group.png">
+      </div>
+      <h1 class="get">Get your cuisine delivered right to <span class=" get your"> your door</span></h1>
+      <p class="p2">Food that is delivered at the right time. The trendy food delivery partner. Good food is what we deliver. Your hunger companion.</p>
+      <button class="explore border-0">Explore Food</button>
+    </div>
+    </header>
+    <section>
+    <div class="hero">
+      <div>
+        <h1>Why we are Best in our Town</h1>
+        <p class="p2">whole grains and low-fat dairy can help to reduce your risk of heart disease by maintaining blood pressure and</p>
+      </div>
+      <div class="chicken fastfoods">
+        <img src="./assets/Group 1000002745.svg">
+        <p>Choose your favorite food </p>
+      </div>
+      <div class="chicken delivery noodles">
+        <img src="./assets/Group 1000002740.svg">
+        <p>Get delivery at your door step</p>
+      </div>
+      <div class="chicken fastfoods callus">
+        <img src="./assets/Group 1000002741.svg">
+        <p>We have 400+ Review On our app</p>
+      </div>
+    </div>
+    <h1 class="heading">Try Our Special Recipes</h1>
+    <div class="recipes-nav">
+      <ul class="d-flex justify-content-evenly">
+        <li><a class="text-danger" href="#">Fast Food</a></li>
+        <li><a class="text-dark text-decoration-none" href="#">Rice Menu</a></li>
+        <li><a class="text-dark text-decoration-none" href="#">Desserts</a></li>
+        <li><a class="text-dark text-decoration-none" href="#">Coffee</a></li>
+        <li><a class="text-dark text-decoration-none" href="#">Pizza</a></li>
+        <li><a class="text-dark text-decoration-none" href="#">See All Product</a></li>
+        
+      </ul>
+    </div>
+    <div class="d-flex justify-content-between cards">
+      <div class="fastfoods p-4">
+        <img class="fastfood" src="./assets/Frame-chicken bucket.svg">
+        <img class="stars" src="./assets/Group 1000002513.svg">
+        <p class="title">Crispy Fried Chicken</p>
+        <p>Price <span class="text-danger price">$ 13.00</span></p>
+        <button class="p-2 text-danger bg-white rounded border border-danger">Add To Cart+</button>
+    </div>
+    <div class="fastfoods p-4">
+      <img class="fastfood" src="./assets/burger.svg">
+      <img class="stars" src="./assets/Group 1000002513.svg">
+      <p class="title">Burger Patty Recipe</p>
+      <p>Price <span class="text-danger price">$ 15.00</span></p>
+      <button class="p-2 text-danger bg-white rounded border border-danger">Add To Cart+</button>
+    </div>
+    <div class="fastfoods noodles p-4">
+      <img class="fastfood" src="./assets//Noodles.svg">
+      <img class="stars" src="./assets/Group 1000002513.svg">
+      <p class="title">Must-Try Dishes</p>
+      <p>Price <span class="text-danger price">$ 12.00</span></p>
+      <button class="p-2 text-white rounded bg-danger border border-danger">Add To Cart+</button>
+    </div>
+    <div class="fastfoods p-4">
+      <img class="fastfood fries" src="./assets/Fries.svg">
+      <img class="stars" src="./assets/Group 1000002513.svg">
+      <p class="title">Tasty French Fries</p>
+      <p>Price <span class="text-danger price">$ 17.00</span></p>
+      <button class="p-2 text-danger bg-white rounded border border-danger">Add To Cart+</button>
+    </div>
+  </div>
+  <div class="scroll d-flex justify-content-center">
+    <div class="line rounded bg-danger"></div>
+    <div class="line-2 rounded bg-secondary"></div>
+    <div class="line-2 rounded bg-secondary"></div>
+  </div>
+</section>
+<section class="mentors d-flex">
+  <div class="d-flex flex-column">
+  <div class="d-flex bg-white border-0 rounded person">
+    <img src="./assets/Ellipse 2518.svg">
+    <div class="d-flex name flex-column">
+      <h5>Rosele Desoza</h5>
+      <p>Marketing Coordinator</p>
+    </div>
+  </div>
+  <div class="d-flex border-0 rounded person">
+    <img src="./assets/Ellipse 2.svg">
+    <div class="d-flex name flex-column">
+      <h5>Marvin McKinney</h5>
+      <p>Web Designer</p>
+    </div>
+  </div>
+  <div class="d-flex border-0 rounded person">
+    <img src="./assets/Ellipse 3.svg">
+    <div class="d-flex name flex-column">
+      <h5>Guy Hawkins</h5>
+      <p>President of Sales</p>
+    </div>
+  </div>
+  <div class="d-flex border-0 rounded person">
+    <img src="./assets/Ellipse 4.svg">
+    <div class="d-flex name flex-column">
+      <h5>Kathryn Murphy</h5>
+      <p>Marketing Coordinator</p>
+    </div>
+  </div>
+</div>
+<div class="line d-flex flex-column">
+  <img src="./assets/Line 15.svg">
+</div>
+<div class="line2 d-flex flex-column">
+  <img src="./assets/Line 15.svg">
+</div>
+<div class="d-flex flex-column">
+  <h1 class="get what">What our Customers <span class="your">are saying</span></h1>
+  <div class="d-flex commenter">
+    <img class="line3" src="./assets/Line 15.svg">
+    <div class="d-flex name flex-column">
+      <h5>Rosele Desoza</h5>
+      <p>Marketing Coordinator</p>
+    </div>
+    <img class="stars stars1" src="./assets/Group 1000002513.svg">
+  </div>
+  <p class="desc">“Having good restaurant reviews is crucial these days. It is not just making our decision to pick one easier, it is also helping the restaurant be more successful. You can quickly copy and paste these good restaurant review examples, publish them on Facebook”</p>
+</div>
+</section>
+<section class="call d-flex">
+    <div class="drumstick d-flex">
+      <img class="mobile" src="./assets/Mobile.svg">
+      <div class="d-flex flex-column">
+        <h1>Never Feel Hungry! Download Our Mobile App Order Delicious Food</h1>
+        <p>Online ordering has enabled many restaurants to manage their peak business hours very effectively.</p>
+        <div class=" app d-flex">
+          <img src="./assets/button-App store.svg">
+          <img src="./assets/button-Play store.svg">
+        </div>
+      </div>
+    </div>
+</section>
+<footer>
+  <div class="d-flex justify-content-evenly">
+    <div class="info d-flex flex-column">
+      <div class="logo1">
+        <a href="#"><svg width="120" height="25" viewBox="0 0 180 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="31" height="30" rx="7" fill="#F94A3D"/>
+        <path d="M15.1 5.344H7.736V25H15.1C21.372 25 25.404 20.996 25.404 15.172C25.404 9.32 21.372 5.344 15.1 5.344ZM12.524 20.856V9.432H14.792C18.404 9.432 20.532 11.56 20.532 15.172C20.532 18.784 18.404 20.856 14.792 20.856H12.524Z" fill="white"/>
+        <path d="M41.86 26H46.99V17.48H53.41V13.49H46.99V9.05H55.57V4.94H41.86V26ZM56.9463 17.6C56.9463 22.88 60.2163 26.24 64.3263 26.24C66.7863 26.24 68.5563 25.13 69.4863 23.6V26H74.6163V3.8H69.4863V11.57C68.4663 10.04 66.5463 9.02 64.3263 9.02C60.2163 9.02 56.9463 12.32 56.9463 17.6ZM69.4863 17.63C69.4863 20.3 67.7763 21.77 65.8263 21.77C63.9063 21.77 62.1663 20.27 62.1663 17.6C62.1663 14.93 63.9063 13.49 65.8263 13.49C67.7763 13.49 69.4863 14.96 69.4863 17.63ZM85.4076 13.13C87.1176 13.13 88.5576 14.18 88.5576 16.01H82.1376C82.4376 14.15 83.7276 13.13 85.4076 13.13ZM93.4176 20.45H87.9576C87.5376 21.35 86.7276 22.07 85.2876 22.07C83.6376 22.07 82.2876 21.05 82.1076 18.86H93.7176C93.7776 18.35 93.8076 17.84 93.8076 17.36C93.8076 12.26 90.3576 9.02 85.4676 9.02C80.4876 9.02 77.0076 12.32 77.0076 17.63C77.0076 22.94 80.5476 26.24 85.4676 26.24C89.6376 26.24 92.6076 23.72 93.4176 20.45ZM96.2139 26H101.344V3.8H96.2139V26ZM104.762 26H109.892V9.26H104.762V26ZM107.342 7.52C109.142 7.52 110.372 6.29 110.372 4.76C110.372 3.2 109.142 1.97 107.342 1.97C105.512 1.97 104.282 3.2 104.282 4.76C104.282 6.29 105.512 7.52 107.342 7.52ZM111.719 9.26L117.659 26H123.989L129.929 9.26H124.469L120.839 21.2L117.209 9.26H111.719ZM139.169 13.13C140.879 13.13 142.319 14.18 142.319 16.01H135.899C136.199 14.15 137.489 13.13 139.169 13.13ZM147.179 20.45H141.719C141.299 21.35 140.489 22.07 139.049 22.07C137.399 22.07 136.049 21.05 135.869 18.86H147.479C147.539 18.35 147.569 17.84 147.569 17.36C147.569 12.26 144.119 9.02 139.229 9.02C134.249 9.02 130.769 12.32 130.769 17.63C130.769 22.94 134.309 26.24 139.229 26.24C143.399 26.24 146.369 23.72 147.179 20.45ZM155.105 18.23C155.105 15.35 156.515 14.51 158.945 14.51H160.355V9.08C158.105 9.08 156.275 10.28 155.105 12.05V9.26H149.975V26H155.105V18.23ZM170.217 19.73L166.347 9.26H160.617L167.427 25.43L163.587 33.95H169.107L179.607 9.26H174.057L170.217 19.73Z" fill="#F94A3D"/>
+        </svg></a>
+      </div>
+      <p>Retail food delivery is a courier service in which a restaurant, store, or independent food-delivery</p>
+      <div class="d-flex apps">
+        <img src="./assets/Facebook.svg">
+        <img src="./assets/Twitter.svg">
+        <img src="./assets/Linkedin.svg">
+      </div>
+    </div>
+    <table>
+      <thead>
+          <th>Company</th>
+          <th>Services</th>
+          <th>Support</th>
+          <th>Contact</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>About Us</td>
+          <td>Order tracking</td>
+          <td>FAQ</td>
+          <td>WhatsApp</td>
+        </tr>
+        <tr>
+          <td>Blog</td>
+          <td>Wish List</td>
+          <td>Policy</td>
+          <td>Support 24</td>
+          </tr>
+        <tr>
+          <td>All Products</td>
+          <td>My account</td>
+          <td>Business</td>
+          <td>Quick Chat</td>
+          </tr>
+        <tr>
+          <td>Locations Map</td>
+          <td>Terms & Conditions</td>
+          <td>Support Carrer</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</footer>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
