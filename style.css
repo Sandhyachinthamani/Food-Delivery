@@ -238,7 +238,7 @@ header{
 .stars1{
     margin-left:160px;
 }
-.call{
+#call-to-Action{
     margin:0px 100px;
     background-image: url(./assets/Call.svg);
     background-repeat: no-repeat;
@@ -296,6 +296,10 @@ th{
 }
 td{
     padding:10px;
+}
+td>a{
+    text-decoration: none;
+    color: black;
 }
 
 
