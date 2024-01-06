@@ -303,7 +303,7 @@ td>a{
     color: black;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     header{
         background-image: none;
         background-color: antiquewhite;
@@ -315,7 +315,7 @@ td>a{
     }
     .get, .what{
         font-size: 25px;
-        width: 270px;
+        width: 80%;
         line-height: 35px;
     }
     .more{
@@ -323,23 +323,24 @@ td>a{
         margin-bottom: 10px;
     }
     .p2{
-        width: 270px;
+        width: 80% !important;
     }
     .hero{
+        margin-left: 15%;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
     .hero h1, .heading{
         font-size: 25px;
-        width:270px;
+        width:80%;
     }
     .chicken img{
         width:40%
     }
     .chicken a{
         font-size: 15px;
-        width:150px;
+        width:90%;
     }
     .chicken{
         margin-bottom: 30px;
@@ -360,6 +361,9 @@ td>a{
     }
     .cards{
         flex-wrap: wrap;
+        vertical-align: unset;
+        margin: 0;
+        justify-content: space-around !important;
     }
     .cards p{
         width:80px;
